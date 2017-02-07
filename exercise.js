@@ -50,7 +50,7 @@ console.log(scissorHand);
 /*5. Declare a new variable named `theSifu` that will change the current string from "In order to taste my cup of water you must first fill your cup." to "In order to taste my cup of water you must first empty your cup."; Console.log your result.*/
 
 var grasshopper = "In order to taste my cup of water you must first fill your cup.";
-var theSifu = grasshopper.replace("In order to taste my cup of water you must first empty your cup.");
+var theSifu = grasshopper.replace("fill", "empty");
 console.log(theSifu);
 
 
@@ -78,7 +78,7 @@ console.log(bigBand);
 /*8. Declare a variable named `oreoList` that will convert the string below into an array of strings. Console.log your result.*/
 
 var oreos = "red velvet, cookie dough, peanut butter, banana split, birthday cake";
-var oreoList = oreos.split();
+var oreoList = oreos.split(",");
 console.log(oreoList);
 
 
